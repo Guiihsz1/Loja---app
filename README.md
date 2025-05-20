@@ -24,11 +24,11 @@
 </head>
 <body>
   <header>
-    <h1>Minha Loja</h1>
+    <h1>Marina Makeup</h1>
   </header>
   <main id="produtos"></main>
   <footer>
-    <p>&copy; 2025 Minha Loja</p>
+    <p>&copy; 2022 Marina Makeup</p>
   </footer>
   <script src="app.js"></script>
 </body>
