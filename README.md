@@ -1,2 +1,22 @@
-# Loja---app
-Site e app para tomar seu negócio digital em uma empresa de destaque, conta ainda com funcionalidades que vai te ajudar a vender seus produtos ou serviços.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja Offline</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <h1>Minha Loja</h1>
+  <div id="produtos"></div>
+
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
+</body>
+</html>
+
