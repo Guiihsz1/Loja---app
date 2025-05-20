@@ -8,10 +8,6 @@
     ├── prod1.jpg
     └── prod2.jpg
 
-<Index.html>
-
-<HTML>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -33,10 +29,6 @@
   <script src="app.js"></script>
 </body>
 </html>
-
-<Style.css>
-
-<css>
 
 body {
   font-family: Arial, sans-serif;
@@ -90,10 +82,6 @@ main {
 }
 
 
-<app.js>
-
-<javascript>
-
 const produtos = [
   {
     id: 1,
@@ -135,10 +123,6 @@ if ('serviceWorker' in navigator) {
     .catch(error => console.log('Erro ao registrar o Service Worker:', error));
 }
 
-<manifest.json>
-
-
-<JSON>
 
 {
   "name": "Loja Marina Makeup",
@@ -161,8 +145,6 @@ if ('serviceWorker' in navigator) {
   ]
 }
 
-
-<service-worker.js>
 
 const CACHE_NAME = 'loja-cache-v1';
 const urlsToCache = [
